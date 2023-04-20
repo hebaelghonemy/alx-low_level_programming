@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - Entry point
- * Return:Always0(Success)
- */ 
+* main - This is the main function
+* Return: Always0(Success)
+*/
 int main(void)
 {
-puts ("\ "Programming is like building a multilingual puzzle");
-return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return	(0);
 }
