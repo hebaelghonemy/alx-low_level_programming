@@ -4,13 +4,13 @@
 * Return: On success 1.
 */
 void print_alphabet_x10(void)
-{	char i, k;
-	for (k = 0; k < 10; k++)
+{
+	int i;
+	char c;
+	for (i = 0; i < 10; i++)
 	{
-	for (i = 'a'; i <= 'z'; i++)
-	{
-	 _putchar(i);
-	}
-	_putchar('\n');
+	for (c = 'a'; c <= 'z'; c++)
+	 _putchar(c);
+	 _putchar('\n');
 	}
 }
