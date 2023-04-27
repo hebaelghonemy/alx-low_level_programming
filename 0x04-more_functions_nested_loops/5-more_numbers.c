@@ -5,10 +5,12 @@
 * Return: 0
 */
 void more_numbers(void)
-{int k, i;
+{
+int k, i;
 for (k = 0; k <= 10; k++)
 for (i = 0; i <= 14; i++)
-{_putchar(k);
+{
+_putchar(k);
 _putchar(i);
 }
 _putchar('\n');
