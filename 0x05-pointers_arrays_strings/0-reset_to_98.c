@@ -4,8 +4,8 @@
 /**
 * reset_to_98 - a function that takes a pointer to an int
 * as parameter and updates the value it points to to 98
-* @*n: is apointer
-* Return: Always 0.
+* @n: Variable to be reset
+* Return: Void
 */
 
 void reset_to_98(int *n)
