@@ -1,14 +1,15 @@
 #ifndef DOG_H
 #define DOG_H
 
- /**
- * struct dog - a dog struct
- * @name: dog's name
- * @age: dog's age
- * @owner: owner's name
- *
- * Description: just a lone dog struct in abig kitty world
- */
+/**
+* struct dog - a dog's basic info
+* @name: First member
+* @age: Second member
+* @owner: Third member
+*
+* Description: This structure represents a dog's basic information, including
+*              its name, age, and owner.
+*/
 
 struct dog
 {
